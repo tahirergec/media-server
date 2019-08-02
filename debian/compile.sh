@@ -37,7 +37,8 @@ git clone git://git.videolan.org/x264.git
 git clone https://github.com/webmproject/libvpx/
 git clone https://github.com/cisco/libsrtp
 
-svn co http://src.chromium.org/chrome/trunk/tools/depot_tools
+#svn co http://src.chromium.org/chrome/trunk/tools/depot_tools
+git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
 export PATH="$PATH":/usr/local/src/depot_tools
 
 
